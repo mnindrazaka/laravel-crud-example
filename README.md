@@ -16,3 +16,4 @@
 
 6. Lakukan seeding untuk mengisi data di database
 > php artisan db:seed
+....
