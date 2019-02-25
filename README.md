@@ -1,18 +1,31 @@
-## Laravel CRUD Example
+# Laravel CRUD Example
 
-### How to install
+## Development
 1. Download project
-> git clone https://github.com/mnindrazaka/laravel-crud-example
+```bash
+$ git clone https://github.com/mnindrazaka/laravel-crud-example
+```
 
 2. install library
-> composer install
+```bash
+$ composer install
+```
 
-3. rename .env-example menjadi .env
+3. rename .env-example to .env
 
-4. Sesuaikan konfigurasi database di .env
+4. Set database configuration on .env
 
-5. Lakukan migrasi database
-> php artisan migrate
+5. Migrate database
+```bash
+$ php artisan migrate
+```
 
-6. Lakukan seeding untuk mengisi data di database
-> php artisan db:seed
+6. Seed database
+```bash
+$ php artisan db:seed
+```
+
+7. Run server
+```bash
+$ php artisan serve
+```
