@@ -1,5 +1,7 @@
 # Laravel CRUD Example
 
+CRUD example using laravel and MYSQL
+
 ## Development
 1. Download project
 ```bash
